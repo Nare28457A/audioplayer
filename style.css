@@ -21,7 +21,7 @@ body{
 }
 
 .player{
-    background-color: rgba(97, 255, 255, 0.9);
+    background-color: rgba(206, 221, 221, 0.9);
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
@@ -52,7 +52,7 @@ body{
 .row2{
     height: 50%;
     width: 100%;
-    background-color: rgba(216,165,214,0.442);
+    background-color: rgba(233, 211, 232, 0.442);
    
 }
 
@@ -100,7 +100,7 @@ body{
 .handle{
     width: 80%;
     height: 5px;
-    background: linear-gradient(to right, #75d9e9, #04484d);
+    background: linear-gradient(to right, #f7b9df, #e2bff7);
    border-radius: 25px;
 }
 
@@ -163,3 +163,50 @@ body{
     margin: 5px;
 }
 
+body{
+    background:#0f0f13;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+button{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#a3d4b4;
+    border:none;
+}
+
+
+
+.player{
+    width:320px;
+    padding:20px;
+    border-radius:25px;
+    background:rgba(255,255,255,.18);
+    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
+    box-shadow:0 15px 35px rgba(0,0,0,.45);
+    text-align:center;
+    transition:.4s;
+}
+
+
+.row1{
+    width:120px;
+    height:120px;
+    margin:15px auto;
+    background-size:cover;
+    background-position:center;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.4);
+}
+
+.player{
+    width: 340px;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255,255,255,.18);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 15px 40px rgba(0,0,0,.35);
+}
